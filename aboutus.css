@@ -171,6 +171,9 @@ body {
   align-items: center !important;
 }
 /* for all */
+a:hover {
+  color: var(--green);
+}
 img {
   max-width: 100%;
 }
