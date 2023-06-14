@@ -117,6 +117,9 @@ body {
 }
 
 /* utils */
+.text-left {
+  text-align: left !important;
+}
 .flex-wrap {
   -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important;
@@ -786,5 +789,108 @@ section.blockElement.aboutUsPage-new {
 @media (max-width: 991px) {
   .snake-timeline .rightCon p {
     font-size: 14px;
+  }
+}
+/* Why Client's Choose Us */
+section.blockElement.between-footer {
+  padding-bottom: 170px;
+}
+.mt-4,
+.my-4 {
+  margin-top: 1.5rem !important;
+}
+.whychooseusBlock .card {
+  background: var(--white);
+  padding: 0 15px;
+  box-shadow: -1px 6px 13px 0 rgb(0 0 0/2%);
+  transition: all 0.5s ease;
+}
+.pt-3,
+.py-3 {
+  padding-top: 1rem !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+.card-subtitle,
+.card-text:last-child {
+  margin-bottom: 0;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+}
+p.card-text {
+  opacity: 0.8;
+}
+.whychooseusBlock .card:hover {
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+}
+.whychooseusBlock .card:hover h4.card-title {
+  color: var(--green);
+}
+
+@media only screen and (max-width: 767px) {
+  .ftco-animated {
+    max-width: 50%;
+  }
+  .whychooseusBlock .card {
+    padding: 10px 10px 5px !important;
+  }
+  .blockElement p,
+  ul li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ftco-animated {
+    max-width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .main-title.wow.slideInUp {
+    margin-bottom: 20px;
+  }
+  .text-left.ftco-animated {
+    margin-bottom: 17px;
+  }
+  .ftco-animated {
+    margin-bottom: 15px;
+    margin-top: 0 !important;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .pr-lg-4,
+  .px-lg-4 {
+    padding-right: 1.5rem !important;
+  }
+  .col-lg-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  .col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .whychooseusBlock .card {
+    min-height: 100%;
+  }
+  img.whyUs {
+    display: none;
   }
 }
