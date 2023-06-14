@@ -778,3 +778,8 @@ section.blockElement.aboutUsPage-new {
     height: 60px;
   }
 }
+@media only screen and (max-width: 767px) {
+  .mediaImg img {
+    object-fit: contain;
+  }
+}
