@@ -783,3 +783,8 @@ section.blockElement.aboutUsPage-new {
     object-fit: contain;
   }
 }
+@media (max-width: 991px) {
+  .snake-timeline .rightCon p {
+    font-size: 14px;
+  }
+}
